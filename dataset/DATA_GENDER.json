@@ -1,0 +1,22 @@
+{
+	"name": "DATA_GENDER",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DATA_FROM_EXCEL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "LKP_SEXO",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "BD-PensionadosAjusTablero.xlsx",
+				"container": "data-files"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

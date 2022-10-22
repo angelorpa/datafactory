@@ -1,0 +1,17 @@
+{
+	"name": "data_ciudades",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "db_pensionados",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "STG",
+			"table": "STG_CIUDAD"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

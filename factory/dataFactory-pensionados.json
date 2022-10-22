@@ -1,0 +1,9 @@
+{
+	"name": "dataFactory-pensionados",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "59f0a6fb-e574-4179-ac82-353c4bc6d2a4",
+		"tenantId": "bab0b679-bd5f-4fe8-b516-c6b8b317c782"
+	}
+}

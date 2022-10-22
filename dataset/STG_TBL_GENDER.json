@@ -1,0 +1,26 @@
+{
+	"name": "STG_TBL_GENDER",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "db_pensionados",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CD_SEXO",
+				"type": "char"
+			},
+			{
+				"name": "NM_SEXO",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "STG",
+			"table": "STG_SEXO"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
